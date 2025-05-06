@@ -29,341 +29,110 @@ const textPriceStyle = {
 };
 
 const products = [
+    // {
+    //     "name": "",
+    //     "price": 00,
+    //     "img": ".jpg",
+    //     "cate": "flower",
+    //     "desc": "",
+    //     "santiva": 0,
+    //     "indica": 0,
+    //     "thc": "",
+    //     "cbd": null,
+    //     "flovors": "",
+    //     "effect": ""
+    // },
     {
-        "name": "Ice Cream Cake",
-        "price": 200,
-        "img": "S__32784397_0.jpg",
+        "name": "Flap Jack",
+        "price": 350,
+        "img": "S__50806790_0.jpg",
         "cate": "flower",
         "desc": "",
-        "santiva": 30,
-        "indica": 70,
-        "thc": "32",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "White Truffle",
-        "price": 300,
-        "img": "S__32784399_0.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 20,
-        "indica": 80,
+        "santiva": 0,
+        "indica": 0,
         "thc": "",
         "cbd": null,
         "flovors": "",
         "effect": ""
     },
     {
-        "name": "Slurricane",
-        "price": 300,
-        "img": "S__32784400_0.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 20,
-        "indica": 80,
-        "thc": "27",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "Oreo big stuff",
-        "price": 200,
-        "img": "S__34029572_0.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 50,
-        "indica": 50,
-        "thc": "30",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "Money Ball",
-        "price": 200,
-        "img": "S__34029574_0.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 40,
-        "indica": 60,
-        "thc": "30",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "Dante's Inferno",
+        "name": "Black Fritter",
         "price": 400,
-        "img": "S__32243715_0.jpg",
+        "img": "S__50806792_0.jpg",
         "cate": "flower",
         "desc": "",
         "santiva": 0,
         "indica": 0,
-        "thc": "28",
+        "thc": "",
         "cbd": null,
         "flovors": "",
         "effect": ""
     },
     {
-        "name": "Cereal Milk",
-        "price": 300,
-        "img": "S__32243717_0.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 0,
-        "indica": 0,
-        "thc": "25",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "Milk Cookies",
-        "price": 350,
-        "img": "S__32243718_0.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 0,
-        "indica": 0,
-        "thc": "25",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "GMO (Garlic Cookies)",
-        "price": 350,
-        "img": "S__32243719_0.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 20,
-        "indica": 80,
-        "thc": "29",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "The Queen 31",
-        "price": 250,
-        "img": "S__32243720_0.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 80,
-        "indica": 20,
-        "thc": "28",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "Gelato #33",
-        "price": 250,
-        "img": "S__32243721_0.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 0,
-        "indica": 0,
-        "thc": "25",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "Gas Mac",
-        "price": 250,
-        "img": "S__32243722_0.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 0,
-        "indica": 0,
-        "thc": "25-30",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "Cookies and Cream",
-        "price": 250,
-        "img": "S__32243723_0.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 80,
-        "indica": 20,
-        "thc": "32",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "Tropicana cherry",
-        "price": 300,
-        "img": "S__31547412.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 60,
-        "indica": 40,
-        "thc": "25",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "Super Boof",
-        "price": 300,
-        "img": "S__31547411.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 50,
-        "indica": 50,
-        "thc": "32",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "Blueberry Pie Oreoz",
+        "name": "Rainbow Runtz",
         "price": 400,
-        "img": "S__31547409.jpg",
+        "img": "S__50806793_0.jpg",
         "cate": "flower",
         "desc": "",
-        "santiva": 30,
-        "indica": 70,
-        "thc": "30",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "",
         "cbd": null,
         "flovors": "",
         "effect": ""
     },
     {
-        "name": "Sugar Cane",
-        "price": 250,
-        "img": "S__10944553_0.jpg",
-        "cate": "flower",
-        "desc": "",
-        "santiva": 60,
-        "indica": 40,
-        "thc": "28",
-        "cbd": null,
-        "flovors": "",
-        "effect": ""
-    },
-    {
-        "name": "Grinder",
-        "price": 250,
-        "img": "grinder2.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "Toppuff",
-        "price": 250,
-        "img": "top_puff2.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "Bamboo",
-        "price": 200,
-        "img": "Bamboo.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "paper",
-        "price": 120,
-        "img": "paper_roll.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "-",
-        "price": 100,
-        "img": "S__151994378_0.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "Pipe",
-        "price": 180,
-        "img": "Pipe.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "Green Crack Pack",
-        "price": 450,
-        "img": "green_crack_pack.jpg",
-        "cate": "stick"
-    },
-    {
-        "name": "อัดแท่ง 100 G",
-        "price": 550,
-        "img": "stick1.jpg",
-        "cate": "stick"
-    },
-    {
-        "name": "อัดแท่ง เขียวๆ",
-        "price": 100,
-        "img": "stick2.jpg",
-        "cate": "stick"
-    },
-    {
-        "name": "roll",
-        "price": 200,
-        "img": "roll1.jpg",
-        "cate": "roll"
-    },
-    {
-        "name": "บ้องแก้ว",
-        "price": 600,
-        "img": "bong_3.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "บ้องแก้ว",
-        "price": 1000,
-        "img": "bong1000.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "บ้องแก้ว",
-        "price": 1200,
-        "img": "1714305877218.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "TOPPUFF",
-        "price": 160,
-        "img": "toppuff.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "Grinder",
+        "name": "Red Oreoz",
         "price": 350,
-        "img": "grinder.jpg",
-        "cate": "item"
+        "img": "S__50806794_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        "name": "Paper",
-        "price": 120,
-        "img": "paper_roll.jpg",
-        "cate": "item"
+        "name": "Runtz",
+        "price": 400,
+        "img": "S__50814985_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        "name": "Paper",
-        "price": 60,
-        "img": "paper2.jpg",
-        "cate": "item"
+        "name": "Wet Cherry",
+        "price": 400,
+        "img": "S__50814986_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
     {
-        "name": "Paper",
-        "price": 60,
-        "img": "paper3.jpg",
-        "cate": "item"
+        "name": "P. C.",
+        "price": 400,
+        "img": "S__50814987_0.jpg",
+        "cate": "flower",
+        "desc": "",
+        "santiva": 0,
+        "indica": 0,
+        "thc": "",
+        "cbd": null,
+        "flovors": "",
+        "effect": ""
     },
-    {
-        "name": "Paper",
-        "price": 60,
-        "img": "paper4.jpg",
-        "cate": "item"
-    }
 ];
 
 
