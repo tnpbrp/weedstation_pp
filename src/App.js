@@ -7,17 +7,17 @@ import {
 } from "react-router-dom";
 
 import Home from './pages/Home';
-import Menu from './pages/Menu';
+// import Menu from './pages/Menu';
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: Home,
   },
-  {
-    path: "/menu",
-    Component: Menu,
-  },
+  // {
+  //   path: "/menu",
+  //   Component: Menu,
+  // },
 ]);
 
 function App() {
