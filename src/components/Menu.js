@@ -45,7 +45,7 @@ const products = [
     // },
       {
         "name": "Weed",
-        "price": 0,
+        "price": "สอบถาม",
         "img": "weed.jpg",
         "cate": "item",
         "desc": "",
