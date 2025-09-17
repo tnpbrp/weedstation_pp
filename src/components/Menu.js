@@ -43,6 +43,20 @@ const products = [
   //     "effect": "",
   //     "sold_out":boolean
   // },
+   {
+    name: "บ้อง",
+    price: '',
+    img: "S__68010037.jpg",
+    cate: "item",
+    desc: "สอบถาม",
+    santiva: 0,
+    indica: 0,
+    thc: "",
+    cbd: null,
+    flovors: "",
+    effect: "",
+    sold_out: false,
+  },
   {
     name: "Vice City",
     price: "400",
