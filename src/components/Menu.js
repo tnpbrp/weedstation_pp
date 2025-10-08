@@ -43,9 +43,136 @@ const products = [
   //     "effect": "",
   //     "sold_out":boolean
   // },
-   {
+  {
+    name: "Pink Certz",
+    price: "250",
+    img: "S__70172699_0.jpg",
+    cate: "flower",
+    desc: "",
+    santiva: 0,
+    indica: 0,
+    thc: "",
+    cbd: null,
+    flovors: "",
+    effect: "",
+    sold_out: false,
+  },
+  {
+    name: "Cherry Rage",
+    price: "250",
+    img: "S__70172701_0.jpg",
+    cate: "flower",
+    desc: "",
+    santiva: 0,
+    indica: 0,
+    thc: "",
+    cbd: null,
+    flovors: "",
+    effect: "",
+    sold_out: false,
+  },
+  {
+    name: "Sundae Fundae",
+    price: "200",
+    img: "S__70172702_0.jpg",
+    cate: "flower",
+    desc: "",
+    santiva: 0,
+    indica: 0,
+    thc: "",
+    cbd: null,
+    flovors: "",
+    effect: "",
+    sold_out: false,
+  },
+  {
+    name: "Golden Poppy",
+    price: "250",
+    img: "S__70172703_0.jpg",
+    cate: "flower",
+    desc: "",
+    santiva: 0,
+    indica: 0,
+    thc: "",
+    cbd: null,
+    flovors: "",
+    effect: "",
+    sold_out: false,
+  },
+  {
+    name: "Apple & Banana",
+    price: "250",
+    img: "S__70172704_0.jpg",
+    cate: "flower",
+    desc: "",
+    santiva: 0,
+    indica: 0,
+    thc: "",
+    cbd: null,
+    flovors: "",
+    effect: "",
+    sold_out: false,
+  },
+  {
+    name: "Cheetah SHIT",
+    price: "250",
+    img: "S__70172705_0.jpg",
+    cate: "flower",
+    desc: "",
+    santiva: 0,
+    indica: 0,
+    thc: "",
+    cbd: null,
+    flovors: "",
+    effect: "",
+    sold_out: false,
+  },
+  {
+    name: "Ice cream cake",
+    price: "80",
+    img: "S__70172706_0.jpg",
+    cate: "trim",
+    desc: "เศษดอก",
+    santiva: 0,
+    indica: 0,
+    thc: "",
+    cbd: null,
+    flovors: "",
+    effect: "",
+    sold_out: false,
+  },
+  {
+    name: "Runtz Muffin",
+    price: "80",
+    img: "S__70172707_0.jpg",
+    cate: "trim",
+    desc: "เศษดอก",
+    santiva: 0,
+    indica: 0,
+    thc: "",
+    cbd: null,
+    flovors: "",
+    effect: "",
+    sold_out: false,
+  },
+  {
+    name: "Super Boof",
+    price: "80",
+    img: "S__70172708_0.jpg",
+    cate: "trim",
+    desc: "เศษดอก",
+    santiva: 0,
+    indica: 0,
+    thc: "",
+    cbd: null,
+    flovors: "",
+    effect: "",
+    sold_out: false,
+  },
+
+  {
     name: "บ้อง",
-    price: '',
+    price: "",
     img: "S__68010037.jpg",
     cate: "item",
     desc: "สอบถาม",
@@ -500,6 +627,41 @@ function Menu() {
       <Divider orientation="center" className="menu-divider">
         Menu Bottom{" "}
       </Divider>
+
+      {/* <div className="bg-gray-100 min-h-screen">
+          <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8">
+              สินค้าของเรา
+            </h2>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {productList.map((product) => (
+                <a
+                  key={product.id}
+                  href={product.href}
+                  className="group bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col"
+                >
+                  <div className="w-full overflow-hidden">
+                    <img
+                      alt={product.imageAlt}
+                      src={require(`../assets/images/products/` + product.img)}
+                      className="w-full h-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-4 flex-1 flex flex-col justify-between">
+                    <h3 className="text-sm text-gray-900 font-semibold">
+                      {product.name}
+                    </h3>
+                    <p className="mt-2 text-lg font-bold text-green-700">
+                      {product.price}
+                    </p>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </div> */}
+
       <Row
         gutter={[
           {
