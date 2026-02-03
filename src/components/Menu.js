@@ -748,14 +748,14 @@ function Menu() {
         {productList.map((item, idx) => (
           <Col
             className="gutter-row"
-            span={responsiveSpan}
+            // span={responsiveSpan}
             key={idx}
             style={col_style}
           >
             <Card
               hoverable
               style={{
-                width: cardWidth,
+                // width: cardWidth,
               }}
               cover={
                 <Image
