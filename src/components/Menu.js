@@ -650,8 +650,8 @@ const products = [
 
 function Menu() {
   // const [WindowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [cardWidth, setCardWidth] = useState(150); // * Default = 240
-  const [responsiveSpan, setResponsiveSpan] = useState(12);
+  // const [cardWidth, setCardWidth] = useState(150); // * Default = 240
+  // const [responsiveSpan, setResponsiveSpan] = useState(12);
   const [productList, setProductList] = useState([]);
 
   useEffect(() => {
